@@ -1,0 +1,67 @@
+{
+  "android": {
+    "font_name": "belfius_iconfont"
+  },
+  "androidwearos": {
+    "font_name": "belfius_iconfont"
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "belfius_iconfont"
+  },
+  "font_color": "333333ff",
+  "font_name": "belfius_iconfont",
+  "font_size": 200,
+  "font_style": "normal",
+  "font_weight": "400",
+  "ipad": {
+    "font_name": "belfius_iconfont"
+  },
+  "iphone": {
+    "font_name": "belfius_iconfont"
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "belfius_iconfont"
+  },
+  "kuid": "scdf44a81eff43b38e33ff3c16196618",
+  "spaan": {
+    "font_name": "belfius_iconfont"
+  },
+  "spaandroidtablet": {
+    "font_name": "belfius_iconfont"
+  },
+  "spabb": {
+    "font_name": "belfius_iconfont"
+  },
+  "spaip": {
+    "font_name": "belfius_iconfont"
+  },
+  "spaipad": {
+    "font_name": "belfius_iconfont"
+  },
+  "spawindowstablet": {
+    "font_name": "belfius_iconfont"
+  },
+  "spawinphone8": {
+    "font_name": "belfius_iconfont"
+  },
+  "tabrcandroid": {
+    "font_name": "belfius_iconfont"
+  },
+  "wType": "Label",
+  "watchos": {
+    "font_name": "belfius_iconfont"
+  },
+  "windows8": {
+    "font_name": "belfius_iconfont"
+  },
+  "winphone8": {
+    "font_name": "belfius_iconfont"
+  }
+}

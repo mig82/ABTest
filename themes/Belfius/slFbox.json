@@ -1,0 +1,62 @@
+{
+    "android": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "androidwearos": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "background_color": "00000000",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "desktopweb": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "ipad": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "iphone": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "isDefaultSkin": true,
+    "kiosk": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "kuid": "sa851296f4bf49d6a5b92ffccc16a614",
+    "spaan": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "spaandroidtablet": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "spabb": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "spaip": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "spaipad": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "spawindowstablet": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "spawinphone8": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "tabrcandroid": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "wType": "FlexContainer",
+    "watchos": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "windows8": {
+        "font_name": "BelfiusAlternative-Regular"
+    },
+    "winphone8": {
+        "font_name": "BelfiusAlternative-Regular"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "keys": [
+        "label.greeting",
+        "title.loan_simulation"
+    ],
+    "locales": {
+        "en_GB": {
+            "i18nStrings": {
+                "label.greeting": "Hello {name}",
+                "title.loan_simulation": "Loan Simulation"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "es_ES": {
+            "i18nStrings": {
+                "label.greeting": "Hola {name}",
+                "title.loan_simulation": "Simulador de Crédito"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "xx_YY": {
+            "country": "None",
+            "i18nStrings": {
+                "label.greeting": "label.greeting",
+                "title.loan_simulation": "title.loan_simulation"
+            },
+            "isCustomLocale": true,
+            "isSelected": true,
+            "language": "i18n keys",
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

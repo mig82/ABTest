@@ -1,0 +1,101 @@
+{
+    "classname": "Notifikation",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bc0d9b11c9f24398a8d143f35a6eb899",
+                    "paramList": [],
+                    "propertyKey": "preShow",
+                    "pw": {
+                        "displayName": "preShow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c310b2015ce04dab91a320a68c75bccd",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Appearance",
+                "Value"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Appearance",
+                    "kuid": "aaa8296f8b524ab78897c2a21f4faa9f",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "bubbleSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Bubble Skin",
+                        "srcWidget": "bubbleBorderFlex",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "da32cebac72c488ab3e2c89ed2310c85"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Value",
+                    "kuid": "de0d407920144e7ca7ed8789669c4c3e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "count",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Notification Count",
+                        "srcWidget": "countLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fb2988fb2ec244f6a7f66b0c63225cbe"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Appearance",
+                    "kuid": "fe5aaf614f034d0eb089bdf0efa27897",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "iconSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Skin",
+                        "srcWidget": "imageLabel",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f1b653e154fc4f658126989e83411d3b"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "mig82",
+    "version": "1.0.0"
+}

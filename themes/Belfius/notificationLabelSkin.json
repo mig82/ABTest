@@ -1,0 +1,102 @@
+{
+  "android": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "androidwearos": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "fontSizeInPx": false,
+  "font_color": "ffffffff",
+  "font_name": "BelfiusAlternative-Regular",
+  "font_size": 60,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "iphone": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "kuid": "sa8f71041dac4919b1d57587cdd878b5",
+  "spaan": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "spaandroidtablet": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "spabb": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "spaip": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "spaipad": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "spawindowstablet": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "spawinphone8": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "tabrcandroid": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "wType": "Label",
+  "watchos": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "windows8": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  },
+  "winphone8": {
+    "font_name": "BelfiusAlternative-Regular",
+    "font_size": 60,
+    "isForked": false
+  }
+}
