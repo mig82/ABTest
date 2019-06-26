@@ -30,13 +30,14 @@
     },
     "canUpdateUI": true,
     "children": [
-        "titleLabel"
+        "titleLabel",
+        "AmountSlider1"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "simulationsFormController"
+            "name": "simulationsAFormController"
         }
     },
     "desktopweb": {
@@ -45,7 +46,7 @@
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "friendlyName": "simulations",
-    "id": "simulationsForm",
+    "id": "simulationsAForm",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

@@ -1,0 +1,85 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizSlider",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_max_": 10000,
+    "_min_": 500,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_step_": 50,
+    "_thickness_": 4,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {},
+    "androidwearos": {
+        "thumbImage": "slider_android.png"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "orientation": "horizontal",
+            "viewType": "default"
+        }
+    },
+    "id": "amountSlider",
+    "imgwt": 96,
+    "info": null,
+    "ipad": {
+        "psp": {
+            "enableThumbTintColor": true,
+            "thumbTintColor": "ffffff00"
+        },
+        "thumbImage": "slider_ios7.png"
+    },
+    "iphone": {
+        "psp": {
+            "enableThumbTintColor": true,
+            "thumbTintColor": "ffffff00"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a67a19dd958d484baeadcc2176f032fb",
+    "leftskin": "sf742d1230324f689158d98cd0480614",
+    "name": "kony.ui.Slider",
+    "noofsteps": 190,
+    "parent": "AmountSlider1",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "rightskin": "sd538dd66b324e80b28b987568408467",
+    "selectedvalue": 5000,
+    "stepwidth": 6.3578947368421055,
+    "tabrcandroid": {
+        "thumbImage": "slider_android.png"
+    },
+    "thumbimage": "slider_ios7.png",
+    "wType": "Slider",
+    "widgetalignment": 5,
+    "zindex": 1
+}
