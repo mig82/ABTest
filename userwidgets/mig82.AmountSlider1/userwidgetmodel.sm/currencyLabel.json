@@ -19,14 +19,14 @@
         0
     ],
     "_right_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "50dp"
     },
     "_skin_": "sf4ab0086aa847e8895ecf3f4feba05c",
-    "_text_": "0,00",
+    "_text_": "€",
     "_width_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -42,7 +42,7 @@
     },
     "containerweight": 100,
     "contentalignment": 6,
-    "id": "amountLabel",
+    "id": "currencyLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,7 +56,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fc02cd5ff156412eaa60c1cff707aab1",
+    "kuid": "ee67b475babb4e55a1873d7aa35d1902",
     "name": "kony.ui.Label",
     "parent": "amountFlex",
     "pf": "userwidgetmodel",
@@ -65,5 +65,5 @@
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
-    "zindex": 2
+    "zindex": 1
 }
