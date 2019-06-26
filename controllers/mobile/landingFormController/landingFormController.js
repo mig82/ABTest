@@ -1,7 +1,10 @@
 define(function(){ 
 
+	/*global amplify, $router*/
 	function goToSimulations(){
-		$router.goto("simulations", {});
+		/*globals $rules*/
+		var simulationFlow = $rules.getLoanSimulationFlow("Miguel");
+		$router.goto(simulationFlow, {});
 	}
 
 	return {

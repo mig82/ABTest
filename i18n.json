@@ -1,12 +1,16 @@
 {
     "keys": [
+        "action.apply",
         "label.greeting",
+        "place.loan_amount",
         "title.loan_simulation"
     ],
     "locales": {
         "en_GB": {
             "i18nStrings": {
+                "action.apply": "Apply",
                 "label.greeting": "Hello {name}",
+                "place.loan_amount": "How much do you need?",
                 "title.loan_simulation": "Loan Simulation"
             },
             "isCustomLocale": false,
@@ -19,7 +23,9 @@
         },
         "es_ES": {
             "i18nStrings": {
+                "action.apply": "Solicitar",
                 "label.greeting": "Hola {name}",
+                "place.loan_amount": "¿Cuánto necesitas?",
                 "title.loan_simulation": "Simulador de Crédito"
             },
             "isCustomLocale": false,
@@ -33,7 +39,9 @@
         "xx_YY": {
             "country": "None",
             "i18nStrings": {
+                "action.apply": "action.apply",
                 "label.greeting": "label.greeting",
+                "place.loan_amount": "place.loan_amount",
                 "title.loan_simulation": "title.loan_simulation"
             },
             "isCustomLocale": true,

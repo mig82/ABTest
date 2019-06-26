@@ -9,7 +9,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "20dp"
     },
     "_margin_": [
         0,
@@ -25,9 +25,10 @@
         0
     ],
     "_percent_": true,
+    "_render_": true,
     "_right_": {
         "type": "string",
-        "value": "10dp"
+        "value": "20dp"
     },
     "_skin_": "sa851296f4bf49d6a5b92ffccc16a614",
     "_top_": {
@@ -38,18 +39,24 @@
     "canUpdateUI": true,
     "clipbounds": false,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "step": 50,
+        "thickness": {
+            "Default": 4
+        }
+    },
     "enablescrolling": true,
     "id": "AmountSlider1",
     "info": null,
     "iscustomlayout": false,
+    "issegmentchild": false,
     "isvisible": true,
-    "kuid": "d488e59d8c5746c493724925d50cd938",
+    "kuid": "cbeccaf79769492ca01c430ee4635811",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "simulationsAForm",
-    "pf": "simulationsAForm",
+    "parent": "simulationsBForm",
+    "pf": "simulationsBForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

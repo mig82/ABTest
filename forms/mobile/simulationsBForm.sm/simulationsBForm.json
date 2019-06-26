@@ -31,14 +31,14 @@
     "canUpdateUI": true,
     "children": [
         "titleLabel",
-        "submitButton",
-        "amountTextBox"
+        "AmountSlider1",
+        "submitButton"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "simulationsAFormController"
+            "name": "simulationsBFormController"
         }
     },
     "desktopweb": {
@@ -46,8 +46,8 @@
     },
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "friendlyName": "simulationsA",
-    "id": "simulationsAForm",
+    "friendlyName": "simulationsB",
+    "id": "simulationsBForm",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -65,7 +65,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "g8bc9d9ec5be4cd08c058a32be465616",
+                "kuid": "a07bfd83b4064e2aa36d4ede1da04290",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -76,7 +76,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "g2b0f5a38c774f1f9423688815b94d56",
+                        "kuid": "d7f2bffee7084027b7601cede4410e37",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -93,7 +93,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "c911c7458ddd4d37a2bb13d5407a1884",
+    "kuid": "a4e0ce8c49cf43858b269dfc7f54bf56",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
