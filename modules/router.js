@@ -2,6 +2,7 @@
 var $router = (function(){
 	
 	function _goto(friendlyName, context){
+		/*global Logger*/
 		Logger.info("Routing to '" + friendlyName + "'");
 
 		try{
@@ -12,11 +13,16 @@ var $router = (function(){
 			message +=	`by friendly name '${friendlyName}'\nError: ${e}`;
 			
 			//alert(message);
-			var toast = new kony.ui.Toast({
-				text:message,
-				duration: constants.TOAST_LENGTH_LONG
-			});
-			toast.show();
+			if(typeof kony.ui.Toast === "undefined"){
+				alert(message);
+			}
+			else{
+				var toast = new kony.ui.Toast({
+					text:message,
+					duration: constants.TOAST_LENGTH_LONG
+				});
+				toast.show();
+			}
 		}
 	}
 
