@@ -1,7 +1,13 @@
 {
     "keys": [
         "action.apply",
+        "action.login",
+        "action.register",
+        "label.email",
         "label.greeting",
+        "label.password",
+        "message.invalid_password",
+        "message.invalid_user",
         "place.loan_amount",
         "title.loan_simulation"
     ],
@@ -9,7 +15,13 @@
         "en_GB": {
             "i18nStrings": {
                 "action.apply": "Apply",
+                "action.login": "Sign in",
+                "action.register": "Sign up",
+                "label.email": "e-mail",
                 "label.greeting": "Hello {name}",
+                "label.password": "Password",
+                "message.invalid_password": "That's not a valid password.",
+                "message.invalid_user": "That's not a valid email address.",
                 "place.loan_amount": "How much do you need?",
                 "title.loan_simulation": "Loan Simulation"
             },
@@ -24,7 +36,13 @@
         "es_ES": {
             "i18nStrings": {
                 "action.apply": "Solicitar",
+                "action.login": "Entrar",
+                "action.register": "Darse de alta",
+                "label.email": "e-mail",
                 "label.greeting": "Hola {name}",
+                "label.password": "Contraseña",
+                "message.invalid_password": "Eso no parece una contraseña válida",
+                "message.invalid_user": "Eso no parece una dirección de e-mail ",
                 "place.loan_amount": "¿Cuánto necesitas?",
                 "title.loan_simulation": "Simulador de Crédito"
             },
@@ -40,7 +58,13 @@
             "country": "None",
             "i18nStrings": {
                 "action.apply": "action.apply",
+                "action.login": "action.login",
+                "action.register": "action.register",
+                "label.email": "label.email",
                 "label.greeting": "label.greeting",
+                "label.password": "label.password",
+                "message.invalid_password": "message.invalid_password",
+                "message.invalid_user": "message.invalid_user",
                 "place.loan_amount": "place.loan_amount",
                 "title.loan_simulation": "title.loan_simulation"
             },
