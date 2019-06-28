@@ -258,8 +258,8 @@
     "camerasettings": "",
     "category": "app",
     "chat": "false",
-    "cloud_account_guid": "0efeca2c-d80f-47db-9cae-bfa681b5bb39",
-    "cloud_env_GUID": "7c540db0-3b24-4190-ba9e-3427450e2b4a",
+    "cloud_account_guid": "944ad2ba-2fd3-42bc-a25a-88723d35827e",
+    "cloud_env_GUID": "ca4df3de-5bca-448a-a811-b482050bbfad",
     "codeGeneration": "false",
     "contacts": "false",
     "cordovaModified": false,
@@ -373,6 +373,14 @@
     "keyAliasandwear": "",
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
+    "kfAppInfo": {
+        "944ad2ba-2fd3-42bc-a25a-88723d35827e": {
+            "appName": "AB Test",
+            "baseId": "9cf94176-2138-4e42-85e0-b79875ef43a7",
+            "id": "9cf94176-2138-4e42-85e0-b79875ef43a7",
+            "version": "1.0"
+        }
+    },
     "konyVizVersion": "8.4.22",
     "lastmodifiedtime": "1561478164209",
     "location": "false",
