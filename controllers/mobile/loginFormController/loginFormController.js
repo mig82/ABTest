@@ -3,21 +3,20 @@ define(function(){
 	var view;
 
 	const dummy = {
-		user: "miguel@kony.com",
 		password: "1234"
 	};
 
 	function login(user, password){
 		/* Replace this made-up logic with your own.
 		Ideally you want to call a service with these credentials.*/
-		if(user === dummy.user && password === dummy.password){
+		if(password === dummy.password){
 			view.Login.showMessage("Success!");
 			/*globals $router*/
 			$router.goto("landing", {});
 		}
 		else{
 			view.Login.showMessage(`Login failed.`);
-			alert(`Try user ${dummy.user} and password ${dummy.password}`);
+			alert(`Try demo password ${dummy.password}`);
 		}
 	}
 
