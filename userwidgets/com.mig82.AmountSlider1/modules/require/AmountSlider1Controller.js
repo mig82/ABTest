@@ -1,5 +1,7 @@
 define(function() {
 
+	var thou, dec, ccy;
+
 	function formatAmount(number, decPlaces, decSep, thouSep) {
 		decPlaces = isNaN(decPlaces = Math.abs(decPlaces)) ? 2 : decPlaces,
 		decSep = typeof decSep === "undefined" ? "." : decSep;
@@ -14,26 +16,24 @@ define(function() {
 			(decPlaces ? decSep + Math.abs(number - i).toFixed(decPlaces).slice(2) : "");
 	}
 
-	function setValue(view){
-		//TODO: Format thousand and decimal separators depending on locale.
-		var thou = view.thousandSeparatorLabel.text;
-		var dec = view.decimalSeparatorLabel.text;
-		var amt = view.amountSlider.selectedValue;
-		var ccy = view.currencyLabel.text;
-		var fAmt = formatAmount(amt, 2, dec, thou);
-		view.amountLabel.text = `${ccy} ${fAmt}`;
-		kony.print(view.amountLabel.frame.width);
-	}
-
 	return {
+		setValue: function(){
+			var amt = this.view.amountSlider.selectedValue;
+			var fAmt = formatAmount(amt, 2, dec, thou);
+			this.view.amountLabel.text = `${ccy} ${fAmt}`;
+		},
+
 		constructor: function(/*baseConfig, layoutConfig, pspConfig*/) {
 			
+			thou = this.view.thousandSeparatorLabel.text;
+			dec = this.view.decimalSeparatorLabel.text;
+			ccy = this.view.currencyLabel.text;
+
 			this.view.currencyLabel.isVisible = false;
 			this.view.noShowFlex.isVisible = false;
-			this.view.amountSlider.onSlide = () =>{
-				setValue(this.view);
-			};
-			setValue(this.view);
+
+			this.view.amountSlider.onSlide = this.setValue;
+			this.setValue();
 		},
 
 		//Logic for getters/setters of custom properties
