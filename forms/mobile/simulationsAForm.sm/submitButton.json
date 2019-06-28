@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s8153d6986d2463d9041eccac719f731",
+    "_skin_": "s1077385408448ceaa602423dd1a2ad0",
     "_text_": "Button",
     "_top_": {
         "type": "string",
@@ -40,7 +40,7 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s102c45863c3455fb4fa2f6873544482",
+    "focusskin": "s849fda69c8145c4a832fcb71b9a0cd4",
     "id": "submitButton",
     "info": null,
     "iscustomlayout": false,
