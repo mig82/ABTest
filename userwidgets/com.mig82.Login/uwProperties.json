@@ -1,0 +1,457 @@
+{
+    "classname": "Login",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bf93a5cfe960408dbf49ababc7992674",
+                    "paramList": [
+                        {
+                            "name": "message"
+                        }
+                    ],
+                    "propertyKey": "showMessage",
+                    "pw": {
+                        "displayName": "showMessage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e65cbd9ac3074677927e13fda26a3bf9",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f50c8596431a4dafb62f9329d3709061",
+                    "paramList": [],
+                    "propertyKey": "preShow",
+                    "pw": {
+                        "displayName": "preShow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e65cbd9ac3074677927e13fda26a3bf9",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a6dab15f69e042beaebe8bdb2eb8cfbe",
+                    "paramList": [],
+                    "propertyKey": "postShow",
+                    "pw": {
+                        "displayName": "postShow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e65cbd9ac3074677927e13fda26a3bf9",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Look & Feel",
+                "Settings"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Invalid user",
+                    "group": "Settings",
+                    "kuid": "b4ee8a7493624f9d9edf1830ab843640",
+                    "originalPropertyKey": "invalidUserMessage",
+                    "propertyIndex": 4,
+                    "propertyKey": "invalidUserMessage",
+                    "pw": {
+                        "displayName": "Invalid User Text or i18n",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e65cbd9ac3074677927e13fda26a3bf9",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Invalid password",
+                    "group": "Settings",
+                    "kuid": "fc62aa889aa54a2690f9d8badc7fc214",
+                    "originalPropertyKey": "invalidPasswordMessage",
+                    "propertyIndex": 5,
+                    "propertyKey": "invalidPasswordMessage",
+                    "pw": {
+                        "displayName": "Invalid Password Text or i18n",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e65cbd9ac3074677927e13fda26a3bf9",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "dfea65caae294350b01988d3d05034ad",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "userBackgroundSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "User Background Skin",
+                        "srcWidget": "userFlex",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a26799750f0042b7a5364f5e6dce852c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Settings",
+                    "kuid": "d8ab350560f5447cbfbaa97ea0074c21",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 1,
+                    "propertyKey": "userPlaceholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "User Placeholder",
+                        "srcWidget": "userTextBox",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f77abfee76bb4b7d984c829f5e29e5e4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "fdc9a2e928e3422b9ddc53bd6d2e33ac",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "userInputSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "User Input Skin",
+                        "srcWidget": "userTextBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f77abfee76bb4b7d984c829f5e29e5e4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Settings",
+                    "kuid": "b7500c51a952419f86adcfe854bc7174",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 2,
+                    "propertyKey": "passwordPlaceholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Password Placeholder",
+                        "srcWidget": "passwordTextBox",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "a7d0cf6c656146d4b758895222397b22"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "ebfd16faf40b44d8b965ba98a62e1daa",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "userIconSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "User Icon Skin",
+                        "srcWidget": "userIconLabel",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c6d1d4650bc74360ad9eb8d169baacb4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "bd3c9119aea1421d9620a3ce5f81d095",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "messageSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Message Skin",
+                        "srcWidget": "messageLabel",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f97fe5c440b24ac78fe0d5ae72f38df7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "i850ce55c31b4956bf1441a56db83ea3",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "passwordIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Password Icon",
+                        "srcWidget": "passwordIconLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ee634ac53c624ac089943cd219b39973"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Settings",
+                    "kuid": "a68f50ef5ae74012b910b9b8bb095b08",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "message",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Failed Login Message",
+                        "srcWidget": "messageLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f97fe5c440b24ac78fe0d5ae72f38df7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "g7c9f03f35354f0ab9a0ca0e8ee270b3",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "userIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "User Icon",
+                        "srcWidget": "userIconLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c6d1d4650bc74360ad9eb8d169baacb4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "e249d97f70d7492fb20b4d338436803a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "showPasswordIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Password Icon",
+                        "srcWidget": "showPasswordButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "f16bfc3858f445ffac8500c20365e34d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "c170521f4e324d7786525e0c90ccb341",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 10,
+                    "propertyKey": "passwordInputSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Password Input Skin",
+                        "srcWidget": "passwordTextBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "a7d0cf6c656146d4b758895222397b22"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "d753eaee7e5f469e81b58614c7445f7a",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 11,
+                    "propertyKey": "passwordBackgroundSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Password Background Skin",
+                        "srcWidget": "passwordFlex",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ed8c7f2fb48943cfb695dbdaa8a28f52"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "h84475da7ab647a9894ecb6f635dc682",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 12,
+                    "propertyKey": "passwordIconSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Password Icon Skin",
+                        "srcWidget": "passwordIconLabel",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ee634ac53c624ac089943cd219b39973"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "d27c8cc76f7e40baa870e1bbb7ed8d5d",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 13,
+                    "propertyKey": "showPasswordIconSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Password Icon Skin",
+                        "srcWidget": "showPasswordButton",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "f16bfc3858f445ffac8500c20365e34d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "caee221ef9054092a9738cef1b508f17",
+                    "originalPropertyKey": "placeholderSkin",
+                    "propertyIndex": 14,
+                    "propertyKey": "passwordPlaceholderSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Password Placeholder Skin",
+                        "srcWidget": "passwordTextBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "a7d0cf6c656146d4b758895222397b22"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "g036f805c93d46bca0f77d12525cfc87",
+                    "originalPropertyKey": "placeholderSkin",
+                    "propertyIndex": 15,
+                    "propertyKey": "userPlaceholderSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "User Placeholder Skin",
+                        "srcWidget": "userTextBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f77abfee76bb4b7d984c829f5e29e5e4"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s849fda69c8145c4a832fcb71b9a0cd4",
+                    "group": "Look & Feel",
+                    "kuid": "f87cad066f2c486d812712995955bf5d",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 17,
+                    "propertyKey": "loginButtonFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Login Button Focus Skin",
+                        "srcWidget": "loginButton",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "f9b01d96766849cc8ab33be4aca34b58"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s1077385408448ceaa602423dd1a2ad0",
+                    "group": "Look & Feel",
+                    "kuid": "a9c55eb58fb04a31af035059f7e7a34a",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 18,
+                    "propertyKey": "loginButtonSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Login Button Skin",
+                        "srcWidget": "loginButton",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "f9b01d96766849cc8ab33be4aca34b58"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.mig82",
+    "version": "1.0.0"
+}

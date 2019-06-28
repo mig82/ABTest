@@ -15,18 +15,20 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s78c4cc363b74056b710b1d8ccbe7455",
+    "_skin_": "sf4202e4f27346d7b7873f1fa8ce29cd",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "Notifikation"
+        "Login"
     ],
     "containerweight": 100,
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "globalUserWidgetRefs": [],
+    "globalUserWidgetRefs": [
+        "u4086427835541bba7a6545ee4d1ab30"
+    ],
     "id": "userwidgetmodel",
     "info": null,
     "initdone": false,
@@ -36,7 +38,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "u940a06e12f545c2ba8783850af7e9f4",
+    "kuid": "u2641164006847abbdfb9e90370ad4fc",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.Form2",

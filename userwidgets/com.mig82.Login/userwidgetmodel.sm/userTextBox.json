@@ -1,0 +1,85 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "e-mail",
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s3dc62b84e6444cd8f21d071d0a2c06c",
+    "_text_": "",
+    "android": {
+        "keyBoardStyle": "emailpad"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s3dc62b84e6444cd8f21d071d0a2c06c",
+    "id": "userTextBox",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showCloseButton": true
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "emailpad",
+    "keyboardtype": "A",
+    "kuid": "f77abfee76bb4b7d984c829f5e29e5e4",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "userFlex",
+    "pf": "userwidgetmodel",
+    "placeholderi18n": "label.email",
+    "placeholderskin": "s9073f20b90d40f8a5a7e29ef256c45f",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "spa": {
+        "psp": {
+            "autoComplete": true
+        }
+    },
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "winphone8": {
+        "psp": {
+            "enableCache": true
+        }
+    },
+    "zindex": 1
+}
