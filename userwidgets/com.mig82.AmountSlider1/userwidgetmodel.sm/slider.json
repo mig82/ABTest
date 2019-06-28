@@ -28,12 +28,12 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_step_": 50,
     "_thickness_": 4,
-    "_width_": {
-        "type": "string",
-        "value": "100%"
-    },
     "android": {},
     "androidwearos": {
         "thumbImage": "slider_android.png"
@@ -46,7 +46,7 @@
             "viewType": "default"
         }
     },
-    "id": "amountSlider",
+    "id": "slider",
     "imgwt": 96,
     "info": null,
     "ipad": {

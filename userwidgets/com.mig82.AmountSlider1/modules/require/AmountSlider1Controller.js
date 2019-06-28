@@ -18,7 +18,7 @@ define(function() {
 
 	return {
 		setValue: function(){
-			var amt = this.view.amountSlider.selectedValue;
+			var amt = this.view.slider.selectedValue;
 			var fAmt = formatAmount(amt, 2, dec, thou);
 			this.view.amountLabel.text = `${ccy} ${fAmt}`;
 		},
@@ -32,7 +32,7 @@ define(function() {
 			this.view.currencyLabel.isVisible = false;
 			this.view.noShowFlex.isVisible = false;
 
-			this.view.amountSlider.onSlide = this.setValue;
+			this.view.slider.onSlide = this.setValue;
 			this.setValue();
 		},
 

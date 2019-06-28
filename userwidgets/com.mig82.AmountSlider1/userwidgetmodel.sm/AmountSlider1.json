@@ -36,11 +36,11 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "amountSlider",
+        "slider",
         "amountFlex",
         "noShowFlex"
     ],
-    "clipbounds": false,
+    "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
     "id": "AmountSlider1",
