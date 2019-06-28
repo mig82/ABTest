@@ -24,7 +24,7 @@ define(function() {
 		},
 
 		constructor: function(/*baseConfig, layoutConfig, pspConfig*/) {
-			
+
 			thou = this.view.thousandSeparatorLabel.text;
 			dec = this.view.decimalSeparatorLabel.text;
 			ccy = this.view.currencyLabel.text;

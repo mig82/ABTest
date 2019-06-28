@@ -100,7 +100,7 @@ var amplify = global.amplify = {
 				if ( !added ) {
 					subscriptions[ topic ].unshift( subscriptionInfo );
 				}
-				alert(`Topic: ${topic}\nSubscriptions: ${subscriptions[ topic ].length}`);
+				//alert(`Topic: ${topic}\nSubscriptions: ${subscriptions[ topic ].length}`);
 			}
 		}
 
