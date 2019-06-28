@@ -1,0 +1,67 @@
+{
+  "android": {
+    "font_name": "MyIconsRegular"
+  },
+  "androidwearos": {
+    "font_name": "Karbon-Regular"
+  },
+  "background_color": "4b88f100",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "Karbon-Regular"
+  },
+  "font_color": "e040fbff",
+  "font_name": "Karbon-Regular",
+  "font_size": 150,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "font_name": "Karbon-Regular"
+  },
+  "iphone": {
+    "font_name": "MyIconsRegular"
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "Karbon-Regular"
+  },
+  "kuid": "sd8d011b2c7e48bd828b3322b7ff3eb4",
+  "spaan": {
+    "font_name": "MyIconsRegular"
+  },
+  "spaandroidtablet": {
+    "font_name": "Karbon-Regular"
+  },
+  "spabb": {
+    "font_name": "MyIconsRegular"
+  },
+  "spaip": {
+    "font_name": "MyIconsRegular"
+  },
+  "spaipad": {
+    "font_name": "Karbon-Regular"
+  },
+  "spawindowstablet": {
+    "font_name": "Karbon-Regular"
+  },
+  "spawinphone8": {
+    "font_name": "MyIconsRegular"
+  },
+  "tabrcandroid": {
+    "font_name": "Karbon-Regular"
+  },
+  "wType": "Button",
+  "watchos": {
+    "font_name": "Karbon-Regular"
+  },
+  "windows8": {
+    "font_name": "Karbon-Regular"
+  },
+  "winphone8": {
+    "font_name": "MyIconsRegular"
+  }
+}

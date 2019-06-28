@@ -1,0 +1,63 @@
+{
+  "android": {
+    "font_name": "Karbon-Regular"
+  },
+  "androidwearos": {
+    "font_name": "Karbon-Regular"
+  },
+  "background_color": "ffffffbf",
+  "bg_type": "one",
+  "border_color": "53327900",
+  "border_style": "rc",
+  "border_type": 0,
+  "border_width": 1,
+  "desktopweb": {
+    "font_name": "Karbon-Regular"
+  },
+  "ipad": {
+    "font_name": "Karbon-Regular"
+  },
+  "iphone": {
+    "font_name": "Karbon-Regular"
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "Karbon-Regular"
+  },
+  "kuid": "s7b2b7a2a7374bd98029857aac10aed1",
+  "spaan": {
+    "font_name": "Karbon-Regular"
+  },
+  "spaandroidtablet": {
+    "font_name": "Karbon-Regular"
+  },
+  "spabb": {
+    "font_name": "Karbon-Regular"
+  },
+  "spaip": {
+    "font_name": "Karbon-Regular"
+  },
+  "spaipad": {
+    "font_name": "Karbon-Regular"
+  },
+  "spawindowstablet": {
+    "font_name": "Karbon-Regular"
+  },
+  "spawinphone8": {
+    "font_name": "Karbon-Regular"
+  },
+  "tabrcandroid": {
+    "font_name": "Karbon-Regular"
+  },
+  "wType": "FlexContainer",
+  "watchos": {
+    "font_name": "Karbon-Regular"
+  },
+  "windows8": {
+    "font_name": "Karbon-Regular"
+  },
+  "winphone8": {
+    "font_name": "Karbon-Regular"
+  },
+  "font_name": "Karbon-Regular"
+}
