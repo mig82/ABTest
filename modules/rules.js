@@ -8,14 +8,15 @@ var $rules = (() => {
 		 * with code that queries the server for the flow to use, so that if the rule
 		 * changes you don't have to release a new app version, and so that you can
 		 * eventually shut down the A/B Test by responding always with the winner flow.*/
-		
-		//User ID's starting with a-m get flow B, users ID's starting with n-z get flow A.
-		if(userId && /[a-m]/i.test(userId[0])){
+
+		//User ID's starting with odd letters get flow B.
+		if(userId && /[a,c,e,g,i,k,m,o,q,s,u,w,y]/i.test(userId[0])){
 			return "simulationsB";
 		}
+		//User ID's starting with even letters or anything else get flow A
 		else{
 			return "simulationsA";
-		}		
+		}
 	}
 	return {
 		getLoanSimulationFlow: _getLoanSimulationFlow
