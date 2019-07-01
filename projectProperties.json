@@ -54,6 +54,7 @@
     "allJoyn": "false",
     "allowselfsignedcertificate": "false",
     "andmaxsdkkey": "None",
+    "andminsdkkey": "4.2 (17)",
     "androidInstallLocation": "Auto",
     "androidInstallLocnPref": "false",
     "android_allowselfsignedcertificates": "None",
@@ -68,6 +69,7 @@
     "androidscreenresizeable": "false",
     "androidscreensmall": "true",
     "androidwear_allowselfsignedcertificates": "None",
+    "andtargetsdkkey": "9.0 (28)",
     "andwearapppackagekey": "com.orgname.ABTestingSample",
     "andwearappversioncode": "1",
     "andwearmaxsdkkey": "None",
@@ -226,11 +228,11 @@
         },
         "wType": "Appmenu"
     },
-    "appnamekey": "ABTestingSample",
+    "appnamekey": "AB Test",
     "appointments": "false",
     "apppackagekey": "com.orgname.ABTestingSample",
     "apptitle": "",
-    "appversioncode": "1",
+    "appversioncode": "2",
     "appversionkey": "1.0.0",
     "backgroundMediaPlayback": "false",
     "backgroundmodes": "Disabled",
@@ -371,8 +373,10 @@
     "isNewAppWithRespectToAndroidWearPackageName": "true",
     "keyAlias": "",
     "keyAliasandwear": "",
+    "keyPassword": "",
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
+    "keyStorePassword": "",
     "kfAppInfo": {
         "944ad2ba-2fd3-42bc-a25a-88723d35827e": {
             "appName": "AB Test",
@@ -699,6 +703,7 @@
     "support64bitandwear": "false",
     "supportX86Devices": "false",
     "supportX86Devicesandwear": "false",
+    "supportmarginpixelindip": "false",
     "tags": {
         "android": {
             "activity_child_tags": "",
