@@ -1,6 +1,6 @@
 define({
 	/*globals $router, $session*/
-	postShow: function(){
+	preShow: function(){
 
 		var amt = $session.getRequestedLoanAmount();
 		if(typeof kony.i18n.getLocalizedString2 === "function"){
@@ -13,7 +13,15 @@ define({
 		this.view.goHometButton.onTouchEnd = () => {
 			$router.goto("landing");
 		};
+	},
 
+	postShow: function(){
+
+		KNYMetricsService.sendCustomMetrics("requested-loan", [{
+			"product": "Consumer Loan",
+			"flow": KNYMetricsService.getFlowTag(),
+			"amount": Number($session.getRequestedLoanAmount())
+		}]);
 		KNYMetricsService.flushEvents();
 		KNYMetricsService.clearFlowTag();
 	},

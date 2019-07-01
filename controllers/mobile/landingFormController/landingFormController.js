@@ -1,4 +1,4 @@
-define(function(){ 
+define(function(){
 
 	/*global amplify, $router, $session*/
 	function goToSimulations(){
