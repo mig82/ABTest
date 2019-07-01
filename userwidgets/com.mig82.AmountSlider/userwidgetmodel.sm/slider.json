@@ -68,7 +68,7 @@
     "leftskin": "sf742d1230324f689158d98cd0480614",
     "name": "kony.ui.Slider",
     "noofsteps": 190,
-    "parent": "AmountSlider1",
+    "parent": "AmountSlider",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

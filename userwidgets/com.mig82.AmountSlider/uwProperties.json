@@ -1,5 +1,5 @@
 {
-    "classname": "AmountSlider1",
+    "classname": "AmountSlider",
     "definitions": {
         "apis": {
             "custom": [],

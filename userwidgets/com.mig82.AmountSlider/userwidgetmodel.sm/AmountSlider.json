@@ -43,7 +43,7 @@
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "AmountSlider1",
+    "id": "AmountSlider",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

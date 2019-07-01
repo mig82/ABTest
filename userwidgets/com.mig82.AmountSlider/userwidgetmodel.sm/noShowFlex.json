@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_skin_": "sa851296f4bf49d6a5b92ffccc16a614",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "100%"
     },
     "_width_": {
         "type": "string",
@@ -36,20 +36,20 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "currencyLabel",
-        "amountLabel"
+        "thousandSeparatorLabel",
+        "decimalSeparatorLabel"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "amountFlex",
+    "id": "noShowFlex",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ce2688e948944daea273bb4a0b81409c",
-    "layouttype": 2,
+    "kuid": "gd699f6d6cff42b2b47b69eef10f453b",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "AmountSlider1",
+    "parent": "AmountSlider",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -21,12 +21,14 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "AmountSlider1"
+        "AmountSlider"
     ],
     "containerweight": 100,
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "globalUserWidgetRefs": [],
+    "globalUserWidgetRefs": [
+        "uca4dc220b7e4baa9620f8b9d908b413"
+    ],
     "id": "userwidgetmodel",
     "info": null,
     "initdone": false,
