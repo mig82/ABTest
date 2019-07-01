@@ -72,8 +72,8 @@
     "andwearappversioncode": "1",
     "andwearmaxsdkkey": "None",
     "antialiaseddrawing": "false",
-    "apmappload": "false",
-    "apmapptransition": "false",
+    "apmappload": "true",
+    "apmapptransition": "true",
     "apmcrash": "true",
     "apmerrorunhandledexception": "true",
     "apmformEntry": "true",
@@ -81,7 +81,7 @@
     "apmgestureswipe": "",
     "apmorientationchange": "",
     "apmservicerequest": "",
-    "apmserviceresponse": "false",
+    "apmserviceresponse": "true",
     "apmtouchorclick": "",
     "appEvents": {
         "mobile": {
