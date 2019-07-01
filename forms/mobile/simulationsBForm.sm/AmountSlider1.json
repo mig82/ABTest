@@ -37,9 +37,10 @@
     },
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "clipbounds": false,
+    "clipbounds": true,
     "containerweight": 0,
     "data": {
+        "selectedValue": 5000,
         "step": 50,
         "thickness": {
             "Default": 4

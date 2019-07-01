@@ -1,9 +1,10 @@
 define(function(){ 
 
-	/*global amplify, $router*/
+	/*global amplify, $router, $session*/
 	function goToSimulations(){
 		/*globals $rules*/
-		var simulationFlow = $rules.getLoanSimulationFlow("Miguel");
+		var simulationFlow = $rules.getLoanSimulationFlow($session.getUser());
+		KNYMetricsService.setFlowTag("Loan-" + simulationFlow);
 		$router.goto(simulationFlow, {});
 	}
 
@@ -13,7 +14,7 @@ define(function(){
 
 			this.view.greetingLabel.text = kony.i18n.getLocalizedString2(
 				"label.greeting",
-				{name: "Miguel"}
+				{name: $session.getUser()}
 			);
 		},
 

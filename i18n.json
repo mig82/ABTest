@@ -1,6 +1,7 @@
 {
     "keys": [
         "action.apply",
+        "action.go_home",
         "action.login",
         "action.register",
         "label.email",
@@ -8,13 +9,16 @@
         "label.password",
         "message.invalid_password",
         "message.invalid_user",
+        "message.loan_submitted",
         "place.loan_amount",
+        "title.loan_confirmation",
         "title.loan_simulation"
     ],
     "locales": {
         "en_GB": {
             "i18nStrings": {
                 "action.apply": "Apply",
+                "action.go_home": "Go to Home",
                 "action.login": "Sign in",
                 "action.register": "Sign up",
                 "label.email": "e-mail",
@@ -22,7 +26,9 @@
                 "label.password": "Password",
                 "message.invalid_password": "That's not a valid password.",
                 "message.invalid_user": "That's not a valid email address.",
+                "message.loan_submitted": "You've successfully applied for your loan of {ccy} {amt}. We'll get back to you shortly.",
                 "place.loan_amount": "How much do you need?",
+                "title.loan_confirmation": "Loan Submission Done",
                 "title.loan_simulation": "Loan Simulation"
             },
             "isCustomLocale": false,
@@ -36,6 +42,7 @@
         "es_ES": {
             "i18nStrings": {
                 "action.apply": "Solicitar",
+                "action.go_home": "Ir a Inicio",
                 "action.login": "Entrar",
                 "action.register": "Darse de alta",
                 "label.email": "e-mail",
@@ -43,8 +50,10 @@
                 "label.password": "Contraseña",
                 "message.invalid_password": "Eso no parece una contraseña válida",
                 "message.invalid_user": "Eso no parece una dirección de e-mail ",
+                "message.loan_submitted": "Has aplicado un préstamo de {ccy} {amt}. Te responderemos en breve.",
                 "place.loan_amount": "¿Cuánto necesitas?",
-                "title.loan_simulation": "Simulador de Crédito"
+                "title.loan_confirmation": "Préstamo Solicitado",
+                "title.loan_simulation": "Simulador de Préstamos"
             },
             "isCustomLocale": false,
             "isSelected": true,
@@ -58,6 +67,7 @@
             "country": "None",
             "i18nStrings": {
                 "action.apply": "action.apply",
+                "action.go_home": "action.go_home",
                 "action.login": "action.login",
                 "action.register": "action.register",
                 "label.email": "label.email",
@@ -65,7 +75,9 @@
                 "label.password": "label.password",
                 "message.invalid_password": "message.invalid_password",
                 "message.invalid_user": "message.invalid_user",
+                "message.loan_submitted": "message.loan_submitted",
                 "place.loan_amount": "place.loan_amount",
+                "title.loan_confirmation": "title.loan_confirmation",
                 "title.loan_simulation": "title.loan_simulation"
             },
             "isCustomLocale": true,

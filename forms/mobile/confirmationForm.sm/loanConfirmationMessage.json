@@ -18,15 +18,15 @@
         0,
         0
     ],
-    "_skin_": "scfd367c06644ea58bb8d448163b9d88",
+    "_skin_": "s19d99bf21b14a559f430e0a0d85b831",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "20%"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "80%"
     },
     "_wrapping_": 2,
     "android": {
@@ -42,7 +42,7 @@
     },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "titleLabel",
+    "id": "loanConfirmationMessage",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,13 +56,13 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f1b4865f78774f81a7a47662605d9831",
+    "kuid": "h4b16b412e6042799ae74a0302bf696e",
     "name": "kony.ui.Label",
-    "parent": "simulationsAForm",
-    "pf": "simulationsAForm",
+    "parent": "confirmationForm",
+    "pf": "confirmationForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "texti18n": "title.loan_simulation",
+    "texti18n": "message.loan_submitted",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

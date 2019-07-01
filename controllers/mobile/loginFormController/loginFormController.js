@@ -11,7 +11,8 @@ define(function(){
 		Ideally you want to call a service with these credentials.*/
 		if(password === dummy.password){
 			view.Login.showMessage("Success!");
-			/*globals $router*/
+			/*globals $router, $session*/
+			$session.setUser(user);
 			$router.goto("landing", {});
 		}
 		else{
